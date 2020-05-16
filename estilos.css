@@ -1,0 +1,26 @@
+/* arquivo de estilo que sera usado em pagina primeiro estilo
+Vinicius Miranda de Pinho
+2020 / Maio
+Versao inicial rwev . 001  
+Funciona como em C de cima para baixo e vale sempre o que estiver no final
+a  - primeiro
+a ultimo, vale o ultimo   
+*/ 
+
+a {  
+    color:red; 
+    text-decoration: none;
+    font-size: 18px;
+    }
+ h1{
+     color:royalblue;
+     font-family: Helvetica, sans-serif
+     }
+#segundo{
+    color:orange;
+}
+
+a.link{
+
+    color: royalblue;
+}
