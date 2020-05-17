@@ -1,0 +1,27 @@
+label, input[type=submit], input[type=text], textarea{
+    display: block;
+}
+textarea{
+width: 300px;
+height: 80px;
+}
+input[type=submit]{
+    background: rgb(68, 68, 158);
+    color: mistyrose;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+input[type=submit]:hover{
+    background: royalblue;
+
+}
+#nome[type=text]{
+    width: 300px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+#mensagem{
+    font-family: Helvetica, sans-serif;
+    
+    font-size: 15px;
+}
