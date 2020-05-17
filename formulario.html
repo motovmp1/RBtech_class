@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <!--chamada do estilo CCS
+    Formularios em html exemplo
+    -->
+
+<html>
+    <head> 
+        <title>HTML5 RBtech - Aulas HTML 5</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Descricao completado conteudo limitado a 156 caracteres" />
+        <meta name="Keywords" content="hmtl, titulos, cabecalhos, seo, meta, tags" />
+        <meta name="author" content="Vinicius Miranda de Pinho" />
+        <!--chamada do estilo CCS-->
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+    </head>
+    
+    <body>
+        <!-- precisa aprender php para pode usar formulario no futuro-->
+        <form action="" method="GET">
+            <label for="nome" title="Digite seu nome e sobrenome">Nome:</label>
+             <!-- nome e o valor que vem da pagina-->
+            <input id="nome" type="text" placeholder="Digite seu Nome:" name="nome"  />
+            <label for="opcao" title="Por favor, pode opinar sobre o site? ">Voce gostou do site:</label>
+            <input id="opcao" type="radio" name="opcao" value="sim" checked="checked"/>Sim
+            <input id="opcao" type="radio" name="opcao" value="nao" />Nao
+            <label for="Linguagem" title="Temos mais opcoes de cursos...">Voce quer saber sobre outros cursos?</label>
+            <input id="Linguagem" type="checkbox" name="html" value="HTML" />HTML
+            <input id="Linguagem" type="checkbox" name="css" value="CSS" />CSS
+            <input type="submit" value="Enviar" />
+        </form>
+        <!--Apenas um h1 por pagina web por nivel de importancia do google-->
+    </body>
+</html>
